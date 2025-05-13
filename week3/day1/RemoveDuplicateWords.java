@@ -13,6 +13,7 @@ public class RemoveDuplicateWords {
         {
         	for(int j=i+1 ; j<a.length; j++)
         	{
+        		//ignore case sensitive 
         		if(a[i].equalsIgnoreCase(a[j]))
         		{
         			a[j]= " ";

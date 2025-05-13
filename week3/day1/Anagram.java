@@ -8,10 +8,10 @@ public class Anagram {
 		String text1="stops";
 		String text2="potss";
 		//check if string length is equal
-    		   text1.length();
+    		   //text1.length();
 		if(text1.length()== text2.length())
 		{
-			System.out.println("Strings are anagram");
+			
 			//convert both string to char
 			char[] charArray = text1.toCharArray();
 			char[] charArray1 =text2.toCharArray();

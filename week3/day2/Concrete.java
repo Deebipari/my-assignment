@@ -10,7 +10,7 @@ public class Concrete implements DataBaseConnection {
 		obj.disconnect();
 		obj.executeUpdate();
 	}
-
+//implement method from database 
 	@Override
 	public void connect() {
 		// TODO Auto-generated method stub
